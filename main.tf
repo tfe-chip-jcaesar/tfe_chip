@@ -39,8 +39,8 @@ module "tfe" {
   tfe_initial_admin_username = "tfe-jcaesar"
   tfe_initial_admin_email    = "jcaesar@presidio.com"
   tfe_initial_admin_pw       = "ThisAintSecure123!"
-  tfe_initial_org_name       = "aws.shadowmonkey.com"
-  tfe_initial_org_email      = "tfe-admins@aws.shadowmonkey.com"
+  tfe_initial_org_name       = "spacelysprockets"
+  tfe_initial_org_email      = "jcaesar@presidio.com"
   vpc_id                     = module.tfe_vpc.vpc_id
   alb_subnet_ids             = module.tfe_vpc.subnet_ids.public
   ec2_subnet_ids             = module.tfe_vpc.subnet_ids.private
